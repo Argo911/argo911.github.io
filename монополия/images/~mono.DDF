@@ -1,0 +1,51 @@
+;Auto-generated Diamond Directive File. Can be deleted without harm.
+.Set CabinetNameTemplate=C:\Users\911_z\OneDrive\Документы\монополия\images\~mono.CAB
+.Set CompressionType=LZX
+.Set CompressionLevel=7
+.Set InfFileName=C:\Users\911_z\OneDrive\Документы\монополия\images\~mono_LAYOUT.INF
+.Set RptFileName=C:\Users\911_z\OneDrive\Документы\монополия\images\~mono.RPT
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=0
+.Set InfCabinetLineFormat=*cab#*=Application Source Media,*cabfile*,0
+.Set Compress=on
+.Set CompressionMemory=21
+.Set DiskDirectoryTemplate=
+.Set Cabinet=ON
+.Set MaxCabinetSize=999999999
+.Set InfDiskHeader=
+.Set InfDiskLineFormat=
+.Set InfCabinetHeader=[SourceDisksNames]
+.Set InfFileHeader=
+.Set InfFileHeader1=[SourceDisksFiles]
+.Set InfFileLineFormat=*file*=*cab#*,,*size*,*csum*
+"C:\Users\911_z\OneDrive\Документы\монополия\Monopole.html"
+"C:\Users\911_z\OneDrive\Документы\монополия\ob.css"
+"C:\Users\911_z\OneDrive\Документы\монополия\js\1.js"
+"C:\Users\911_z\OneDrive\Документы\монополия\js\3.js"
+"C:\Users\911_z\OneDrive\Документы\монополия\js\card.js"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\arrow.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\arrow_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\chance_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\close.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\community_chest_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Die_1.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Die_2.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Die_3.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Die_4.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Die_5.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Die_6.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\electric_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\free_parking_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\hori-bar.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\hotel.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\hotel_faded.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\house.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\house_faded.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\jake_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\menu_background.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\menu_background_hover.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\tax_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\train_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\vert-bar.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\water_icon.png"
+"C:\Users\911_z\OneDrive\Документы\монополия\images\Без названия.jpg"
