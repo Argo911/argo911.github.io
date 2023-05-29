@@ -20,10 +20,15 @@ body {
   </style>
 
 <body >
+    <h3 id="timer" >Время после нажатия кнопки играть: 00:00:00</h3>
+
+
+  
 
 
 	<audio src="mp3/dvrst-igor-sklyar-atomic-heart-komarovo-dvrst-phonk-remix-mp3.mp3" autoplay="autoplay"></audio>
 
+	
 
 	<div id="popupbackground"></div>
 	<div id="popupwrap">
@@ -183,8 +188,8 @@ body {
 	<div id="moneybarwrap">
 		<div id="moneybar">
 			
+			
 			<table>
-
 				<tr id="moneybarrow1" class="money-bar-row">
 					<td class="moneybararrowcell"><img src="images/arrow.png" id="p1arrow" class="money-bar-arrow" alt=">"/></td>
 					<td id="p1moneybar" class="moneybarcell">
@@ -474,9 +479,32 @@ body {
 		</div>
 
 		<div style="margin: 20px 0px;">
-			<input type="button" value="Играть" onclick="setup(),soundClick()">
+			<input  type="button" id="startBtn" value="Играть"  onclick="setup(),soundClick()">
 		</div>
-
+		<script>
+			let timer = document.getElementById('timer');
+				let startBtn = document.getElementById('startBtn');
+				let seconds = 0;
+				let minutes = 0;
+				let hours = 0;
+				let interval;
+				
+				function updateTime() {
+				  seconds++;
+				  if (seconds === 60) {
+					minutes++;
+					seconds = 0;
+				  }
+				  if (minutes === 60) {
+					hours++;
+					minutes = 0;
+				  }
+				  timer.textContent = `Время после нажатия кнопки играть: ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+				}
+				startBtn.addEventListener('click', () => {
+				  interval = setInterval(updateTime, 1000);
+				});
+		  </script>
 		<div id="noF5"><H1>Примечание. Обновление этой страницы или уход с нее может привести к завершению игровой сессии.</H1></div>
 	</div>
 </div>
